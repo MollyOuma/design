@@ -287,6 +287,7 @@ Therapist
 + role
 + room_number
 + status - active, inactive
++ therapist_id
 
 
 
@@ -300,14 +301,25 @@ Therapist
 
 Medical records
 this object will have the following attributes
-+ id
++ status
++ admission_number
++ name
++ date_of_submission
++ allergy
++ physical problem
++ psychological problem
++ sitting
++ crawling
++ hearing problem
++ speaking problem
++ skin problem
 
 
 
 Payment  
 
 the object will ahve the following attributes:  
-+ id
++ payment_id
 + amount
 + transaction_code
 + month
@@ -324,6 +336,7 @@ this object model will have the following attributes;
 + condition
 + date
 + therapist details - name, 
+
                         id
 
 
@@ -333,6 +346,9 @@ will have the following:
 + admission_number
 + condition
 + date  
++ comment
++ status
++ therapist_id
 
 
   
@@ -460,6 +476,92 @@ when admitting the child, these are some of the elements to note in the process
     + parent details
     + hospital of birth
     + status
+    + delivery_form  
+    
+    
+Data modeling and processes 
+
+Registration/ Admission
+1. Children  admission (active, inactive, Discharged, Diagnosis)
+Add children ( info)
+List children
+Get child info
+Update child info
+Delete child
+Add medical record
+Add assessment forms
+2. Therapists 
+Create
+Update 
+Delete
+Activate/ Inactivate
+List Therapists
+3. Admins
+Create
+Update 
+Delete
+4. Parents/ Guardians
+Create
+Update 
+Delete
+List
+
+Informative/news
+Therapies and Medical services
+Medical records/ history  -create, update, read
+Checklist/ therapy  ( checklist, create record 
+CP Checklist
+ADHD Checklist
+Down syndrome Checklist
+Dyslexia Checklist
+Rickets Checklist
+DM Checklist
+Autism checklist form
+Therapy Attendance (Meru, Mikindiru) - 
+Meru Form
+Create (Child Name, Admn No, Condition, Date, Time, Therapy sessions, Comments, Therapists name ) https://www.cognitoforms.com/FurahaSzcescieCenterMeru/TherapyAttendanceMeru 
+List, Delete
+Mikinidiru
+Create (Child Name, Admn No, Condition, Date, Time, Therapy sessions, Comments, Therapists name ) https://www.cognitoforms.com/FurahaSzcescieCenterMeru/TherapyAttendanceMikinduri 
+List, Delete
+
+Daily daycare attendance
+Create attendance records - (Name, Admn No Condition, Date, Time, Comments, Attended by )   https://www.cognitoforms.com/FurahaSzcescieCenterMeru/DaycareAttendanceForm 
+List attendance (with check-in and out )
+
+Assessment Form (6 months)
+Create record 
+Personal Information (Names, DOB, Age, Gender, Guardians info, Family History)
+Previous assessment Info ( first assessment date, Diagnostics, Previous goals therapy interventions, )
+New assessment ( Therapist, Goals, Home exercises )
+https://www.cognitoforms.com/FurahaSzcescieCenterMeru/ReassessmentForm 
+List records
+
+Finances
+Make payments (by donors)  
+To organization ( Donor details 
+To a particular child ( Donor details,child details, amount)
+Website
+1. Children  admission (active, inactive, Discharged, Diagnosis)
+Add children ( info)
+List children
+Get child info
+Update child info
+Delete child
+Add medical record
+Add assessment forms
+2. Therapists 
+Create
+Update 
+Delete
+Activate/ Inactivate
+List Therapists
+3. Medical records 
+     a)Add records
+     b) update records
+     c) get records
+4. Payment 
+Get payments (external payment method integrations 
 
 
 
