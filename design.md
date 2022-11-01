@@ -96,7 +96,8 @@ the parent will access the system via web using smartphone or laptop(this is opt
 
 
 2.5 DESIGN AND IMPLEMENTATION
-
++ working on the design   
++ implementation to start soon
 
 2.6 USER DOCUMENTATION
 
@@ -114,7 +115,11 @@ therapists ,parents and admin will access the web. it is the main user interface
 3.2 HARDWARE INTERFACES
 
 
-3.3 SOFTWARE INTEFACES
+3.3 SOFTWARE INTERFACES  
++ email server api
++ authantication server
+
+
 3.4 COMMUNICATION INTERFACES
 
 **4.0 FUCNTIONAL REQIREMENTS**
@@ -237,7 +242,8 @@ These are the APIs that will be exposed via API service
 
 the APIs exposed will be REST APIs and authorization of APIs based on the role and user id. all of the above are the incoming APIs.
 
-Outgoing APIs - none
+Outgoing APIs - auth server api  
+incoming APIs - the above mentioned APIs
 
 
 
