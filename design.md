@@ -32,7 +32,7 @@ This system is an improvement of the already existing systema and aims at provid
 
 Here is the context diagram of the solution to be developed.  
 
-
+![](context_diagram.png)
 
 
 
@@ -197,7 +197,7 @@ Data deletion after some period of time. for example when a child is has been in
 The system is decomposed into parts that work together. Services/components, functions and interfaces are defined, exposed and consumed.
 this diagram represents the various components that make up our service for this system.
 
-
+![](HLD.png)
 
 
 
@@ -271,7 +271,7 @@ Our model objects are identified and defined in this section.Each with their att
 
 **state diagram transition**
 
-
+![](furaha.png)
 
 
 
@@ -291,7 +291,7 @@ Therapist
 
 
 **transition diagram**
-
+![](therapist.png)
 
 
 
