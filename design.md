@@ -4,15 +4,15 @@ FURAHA CHILDREN CENTRE - DESIGN ANALYSIS
 
  1.1 PURPOSE  
 
-  Build a platform that will help the Furaha Children Centre to manage the medical records of patients/children with Autism, celebral palsy and other brain conditions.management of the therapist and the patients and their therapy attendance.
+  Build a platform that will help the Furaha Children Centre to manage the medical records of patients/children with Autism, celebral palsy and other brain conditions.management of the caregiver and the patients and their therapy attendance.
 
 
 1.2 PROJECT SCOPE
 
 we want to build a platform that for Furaha Centre that will be used in their daily operations and will help in the management of the following:  
 
-+  patient/child management - children with brain issues 
-+ Therapist management - all the therapist in the organization can be managed and their information and job status marked(active/inactive)
++ Patient/child management - children with brain issues 
++ Caregiver management - all the therapist in the organization can be managed and their information and job status marked(active/inactive)
 + Medical records od the patient should alsp be managed
 + payment records - from donors or sponsors
 + Therapy and day care attendance records should also be managed using thi platform.
@@ -38,27 +38,27 @@ Here is the context diagram of the solution to be developed.
 
 
 + summary  of the external actors:
-    + Therapist  - user
-    + admin - user
-    + parent - user
+    + Caregiver  - user
+    + Admin - user
+    + Parent - user
 
 2.2 PRODUCT FUNCTIONS  
 
 This is the main list of the product functions in the system:  
 
-+ Therapist manangement
++ Caregiver manangement
 + Child/patient management
 + Medical records management
 + Therapy management
 + Day care management
-+ payment management
++ Payment management
 
 
 2.3 SYSTEM USERS AND THEIR CHARACTERISTICS  
 
- User1 : Therapist   
+ User1 : Caregiver   
 
-the main channel is the web vi mobile or laptop
+The main channel is the web via mobile or laptop
 
  + characteristics
      + have smartphone or laptop
@@ -78,13 +78,13 @@ main channel - web via mobile or laptop
 + characteristics
     + have a laptop or smartphone
     + they can view all the patients
-    + they can add and delete patient and therapist
+    + they can add and delete patient and caregiver
     + they can update the medical records
     + they can update the child or therapist information
 
 User 3: Parent  
 
-the parent will access the system via web using smartphone or laptop(this is optional)
+The parent will access the system via web using smartphone or laptop(this is optional)
 + characteristics
     + has a child attending therapy at furaha center
     + can search for their child medical record to see the progress
@@ -109,7 +109,7 @@ User guide
 
 Web:  
 
-therapists ,parents and admin will access the web. it is the main user interface and should be mobile friendly.  
+Caregivers, parents and admin will access the web. it is the main user interface and should be mobile friendly.  
 
 
 3.2 HARDWARE INTERFACES
@@ -127,17 +127,17 @@ therapists ,parents and admin will access the web. it is the main user interface
 + FEATURES  
 
     +  Authentication requirement
-        + sign up user (therapist, parent, therapist) using local credentials but in our case the admin can provide the user with login credentials.
+        + sign up user (Caregiver, parent) using local credentials but in our case the admin can provide the user with login credentials.
         + reset user password
         + change user password
 
     + Authorization requirements  
 
         + Admin role
-            + should manage the therapists, medical records and payment records
+            + should manage the caregivers, medical records and payment records
             + should be able to view all patients and all the records in the system
 
-        + Therapist role
+        + Caregiver role
             + should add and update child 
             + should view child details
             + create medical records
@@ -159,10 +159,10 @@ therapists ,parents and admin will access the web. it is the main user interface
         + update child medical records
         + view/ search medical records
 
-    + Therapist management
-        + Create therapist (admin role)
-        + view and search therapist
-        + update and delete therapist
+    + Caregiver management
+        + Create caregiver (admin role)
+        + view and search caregiver
+        + update and delete caregiver
         + set as active or inactive
 
 
@@ -219,7 +219,7 @@ This system will be an angular project whose main function is to:
 + web user interface fot the system users;
     + admin
     + parent
-    + therapist
+    + caregiver
 + data retrieval from the backend service through the API service
 
 
@@ -235,7 +235,7 @@ These are the APIs that will be exposed via API service
 
 + Authentication and authorization API (local)
 + patient/ child management API
-+ Therapist management API
++ Caregiver management API
 + medical records management API
 + therapy and daycare attendance API* (WILL REVIEW AND MAYBE USE OTHER OPTIONS)
 + Payment management API
@@ -283,9 +283,8 @@ Our model objects are identified and defined in this section.Each with their att
 
 
 
-
-Therapist
- the therapist object will have the following attributes:
+Caregiver 
+ the caregiver object will have the following attributes:
 + first_name
 + username
 + email
@@ -293,7 +292,7 @@ Therapist
 + role
 + room_number
 + status - active, inactive
-+ therapist_id
++ National_id
 
 
 
@@ -341,7 +340,7 @@ this object model will have the following attributes;
 + admission_number
 + condition
 + date
-+ therapist details - name, 
++ caregiver details - name, 
 
                         id
 
@@ -354,7 +353,7 @@ will have the following:
 + date  
 + comment
 + status
-+ therapist_id
++ Caregiver_id
 
 
   
@@ -378,7 +377,7 @@ will have the following:
 
     + API needed
         + search child by admission_number and name
-        + search therapist by username and name
+        + search caregiver by username and name
 
 + ADMISSIONS
     + Logo
@@ -496,12 +495,12 @@ Update child info
 Delete child
 Add medical record
 Add assessment forms
-2. Therapists 
+2. Caregivers
 Create
 Update 
 Delete
 Activate/ Inactivate
-List Therapists
+List Caregivers
 3. Admins
 Create
 Update 
@@ -527,7 +526,7 @@ Therapy Attendance (Meru, Mikindiru) -
 Meru Form
 Create (Child Name, Admn No, Condition, Date, Time, Therapy sessions, Comments, Therapists name ) https://www.cognitoforms.com/FurahaSzcescieCenterMeru/TherapyAttendanceMeru 
 List, Delete
-Mikinidiru
+Mikinduri
 Create (Child Name, Admn No, Condition, Date, Time, Therapy sessions, Comments, Therapists name ) https://www.cognitoforms.com/FurahaSzcescieCenterMeru/TherapyAttendanceMikinduri 
 List, Delete
 
@@ -556,12 +555,12 @@ Update child info
 Delete child
 Add medical record
 Add assessment forms
-2. Therapists 
+2. Caregivers 
 Create
 Update 
 Delete
 Activate/ Inactivate
-List Therapists
+List Caregivers
 3. Medical records 
      a)Add records
      b) update records
