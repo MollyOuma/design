@@ -3,5 +3,5 @@ Furaha Children Centre Dessign Analysis
 
 
 TO DO LIST:
-  Clarify on therapy and daycare sessions
-  Upload user experience diagrams
+  +Clarify on therapy and daycare sessions
+  +Upload user experience diagrams
