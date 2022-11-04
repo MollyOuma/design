@@ -15,7 +15,7 @@ we want to build a platform that for Furaha Centre that will be used in their da
 + Caregiver management - all the therapist in the organization can be managed and their information and job status marked(active/inactive)
 + Medical records od the patient should alsp be managed
 + payment records - from donors or sponsors
-+ Therapy and day care attendance records should also be managed using thi platform.
++ Therapy and day care attendance records should also be managed using the platform.
 
 
 1.3 Definitions, accronyms and abbreviations  
