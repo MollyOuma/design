@@ -273,7 +273,7 @@ Our model objects are identified and defined in this section.Each with their att
 + hospital_of_birth
 + podaj_mi_reke
     
-
+![](experience.jpeg)
 
 **state diagram transition**
 
