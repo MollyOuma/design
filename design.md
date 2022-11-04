@@ -382,6 +382,8 @@ will have the following:
         + search child by admission_number and name
         + search caregiver by username and name
 
+
+![](admin.jpeg)
 + ADMISSIONS
     + Logo
     + dashboard
