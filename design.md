@@ -444,7 +444,9 @@ will have the following:
     + add, update and view payments
 
     + API needed
-        + get payment by id
+     +get payment by id  
+     
+     ![](payment1.jpeg)
 
 + DAYCARE ATTENDANCE
     + Logo
