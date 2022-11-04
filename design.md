@@ -391,6 +391,8 @@ will have the following:
     + edit button
     + delete button
     + view all
+    
+    ![](patient.jpeg)
 
     + API needed
      + get child by admission number and name
