@@ -415,10 +415,10 @@ will have the following:
     + API needed
         + get by username(unique)
         + search by username
+     ![](therapist5.jpeg)
      
-     ![](caregiver.jpeg)
      
-     ![](caregiver2.jpeg)
+     
      
      
      
@@ -467,7 +467,11 @@ will have the following:
     + API needed
         + get therapy attendance by admission number therapy id  
         
-        ![](therapy.jpeg)
+        
+        ![](caregiver.jpeg)  
+        
+        
+        ![](caregiver2.jpeg)
 
 
 
