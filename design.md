@@ -122,7 +122,7 @@ Caregivers, parents and admin will access the web. it is the main user interface
 
 3.4 COMMUNICATION INTERFACES
 
-**4.0 FUCNTIONAL REQIREMENTS**
+**4.0 FUCNTIONAL REQUIREMENTS**
 
 + FEATURES  
 
