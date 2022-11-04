@@ -435,7 +435,7 @@ will have the following:
         + get by admission number
         + search by admission number  
       
-      ![](medical.jpeg)
+      ![](medical1.jpeg)
 
 + PAYMENT
     + Logo
