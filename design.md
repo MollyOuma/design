@@ -416,7 +416,9 @@ will have the following:
         + get by username(unique)
         + search by username
      
-     ![](therapist3.jpeg)
+     ![](caregiver.jpeg)
+     
+     ![](caregiver2.jpeg)
      
      
      
