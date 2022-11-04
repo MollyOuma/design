@@ -327,11 +327,15 @@ the object will ahve the following attributes:
 + payment_id
 + amount
 + transaction_code
-+ month
++ Date
 + admission_number
-+ donor details - id, name
++ mode_of_payment  
 
 
+
+Donor/sponsor
++ donor_id
++ name
 
 
 Therapy attendance  
@@ -390,8 +394,12 @@ will have the following:
     + view all
 
     + API needed
-        + get child by admission number and name
-        + search child by admission number
+     + get child by admission number and name
+     + search child by admission number
+     
+     
+     
+     
 
 + THERAPIST
     + Logo 
@@ -403,7 +411,10 @@ will have the following:
 
     + API needed
         + get by username(unique)
-        + serch by username
+        + search by username
+     
+     
+     
 
 + MEDICAL RECORDS
     + logo
