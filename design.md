@@ -413,6 +413,8 @@ will have the following:
         + get by username(unique)
         + search by username
      
+     ![](therapist3.jpeg)
+     
      
      
 
@@ -426,7 +428,9 @@ will have the following:
 
     + API needed
         + get by admission number
-        + search by admission number
+        + search by admission number  
+      
+      ![](medical.jpeg)
 
 + PAYMENT
     + Logo
@@ -454,7 +458,9 @@ will have the following:
     + view, add, edit delete buttons
 
     + API needed
-        + get therapy attendance by admission number therapy id
+        + get therapy attendance by admission number therapy id  
+        
+        ![](therapy.jpeg)
 
 
 
